@@ -13,8 +13,8 @@ I thank bootstrap for adding updated coding to help me build my own website.
 https://getbootstrap.com/docs/4.0/components/navbar/
 
 So then~
-Download the Pipboy_default folder. Inside index.html, js/pipboy.app.js, css/pipboy.app.css, --
-Either drag the index.html or "open with" 'your browser' to open up the Pipboy webpage.
+Download the Pipboy_default folder. 
+Either drag the index.html to an open browser or "open with" 'your browser' to open up the Pipboy webpage.
 
 
 MIT License
