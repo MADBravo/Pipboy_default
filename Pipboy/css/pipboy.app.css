@@ -9,10 +9,12 @@ body {
   font-family: Pipboy;
   color:#14fe17;
   background:#272b23;
+  height:100vh;
+  width:95vw;
 }
 
 body::after {
-  width:100%;
+  width:90%;
   position:absolute;
   top:0px;
   left:0px;
@@ -28,8 +30,8 @@ body::after {
   position: absolute;
   background: #272b23;
   width: 100%;
-  height: 21px;
-  top: 19px;
+  height: 2.42vh;
+  top: 58.7%;
   border-left: 2px solid;
   border-right: 2px solid;
   border-top: 2px solid;
@@ -40,10 +42,12 @@ body::after {
 .navbar {
   border-bottom:2px solid;
   margin:0px 10px;
+  height:5vh;
+  width:95vw;
 }
 
 .navbar::before, .navbar::after {
-  height: 12px;
+  height: 11px;
     width: 2px;
     content: "";
     background-color:#14fe17;
@@ -80,6 +84,10 @@ ul > li.nav-item, li.navbar-item > a.nav-link, ul > li.nav-item > a.nav-link, ul
 
 .navbar-nav {
   width:100%;
+}
+
+.nav-link {
+  padding:5px;
 }
 
 .navbar.navbar-light .navbar-nav {
@@ -123,13 +131,13 @@ font-size: 15px;
 
 .nav.nav-tabs {
   margin: 20px;
-border-bottom: none;
-background-color: #272b23;
+  border-bottom: none;
+  background-color: #272b23;
 }
 
 .nav.nav-tabs > .nav-item > .nav-link {
   border:1px solid transparent !important;
-  font-size: 23px !important;
+  font-size: 22px !important;
 }
 
 .nav.nav-tabs > .nav-item > .nav-link:hover {
@@ -309,7 +317,7 @@ list-style-type:none;
 }
 
 .item-list a.active:hover::before {
-  background: #272b23;
+  background: #14fe17;
   content:"";
   display:block;
   position:absolute;
