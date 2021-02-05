@@ -19,7 +19,7 @@ body::after {
   top:0px;
   left:0px;
   content: "";
-  background:repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) 1px, transparent 1px, transparent 2px);
+  background:repeating-linear-gradient(0deg, #446a45, #37a139 1px, transparent 1px, transparent 2px);
   opacity:.5;
   z-index: 1000000;
   pointer-events: none;
@@ -119,6 +119,7 @@ bottom: 0;
 left:0;
 width: calc(100% - 10px);
 font-size: 15px;
+z-index: 5;
 }
 
 .foot {
@@ -321,4 +322,43 @@ list-style-type:none;
   content:"";
   display:block;
   position:absolute;
+}
+
+#map-container {
+  display: center;
+  border:#14fe17 solid;
+}
+
+.Los_Angeles{
+
+  position:relative;
+  width:60vw;
+  z-index: 3
+}
+
+.row .ct-u-padding-bottom-40 {
+  justify-content: center;
+}
+
+#zoom-img {
+  cursor: move;
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+#zoom-container {
+  overflow: hidden;
+  background: red;
+  height: 500px;
+  width: 500px;
+}
+
+.zooms {
+  text-align: center;
+}
+
+.map.button {
+  width: 200px;
+  height: 50px;
 }

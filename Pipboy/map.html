@@ -43,29 +43,41 @@
           <ul class="nav nav-tabs">
             <li class="nav-item">
               <a href="#status" class="nav-link active" id="status-tab" data-toggle="tab" role="tab" aria-controls="status" aria-selected="true">
-                STATUS
+                MAP
               </a>
             </li>
             <li class="nav-item">
               <a href="#special" class="nav-link nav-item" id="special-tab" data-toggle="tab" role="tab" aria-controls="special" aria-selected="false">
-                SPECIAL
+                --
               </a>
             </li>
             <li class="nav-item">
               <a href="#perks" class="nav-link nav-item" id="perks-tab" data-toggle="tab" role="tab" aria-controls="perks" aria-selected="false">
-                PERKS
+                --
               </a>
             </li>
           </ul>
 <!-- End of sub-tabs -->
 
 
+          <div class="container">
+              <div class="row ct-u-padding-bottom-40" >
+                <div id="zoom-container">
+                  <img ondragstart="return false" id="zoom-img" class="Los_Angeles" src="images\California.jpg"></img>
+                </div>
+                </div>
+                <div class="zooms">
+                  <input type="button" id="zoomout" class="button" value="Zoom out">
+                  <input type="button" id="zoomin" class="button" value="Zoom in">
+                </div>
+          </div>
+
 
                 <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="status" role="tabpanel" aria-labelledby="status-tab">
                   </div>
-                  <div class="tab-pane fade" id="special" role="tabpanel" aria-labelledby="special-tab">SPECIAL</div>
-                  <div class="tab-pane fade" id="perks" role="tabpanel" aria-labelledby="perks-tab">PERKS</div>
+                  <div class="tab-pane fade" id="special" role="tabpanel" aria-labelledby="special-tab">--</div>
+                  <div class="tab-pane fade" id="perks" role="tabpanel" aria-labelledby="perks-tab">--</div>
                 </div>
 
               </div>
@@ -100,6 +112,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="js/pipboy.app.js"></script>
+<script src="js/interactiveMap.js"></script>
 </body>
 
 </html>
